@@ -17,6 +17,15 @@
 
 </head>
 <body>
+  <!-- LOADER -->
+
+  <div class="lds-facebook-wrapper js-loader">
+    <div class="lds-facebook">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
 
   <!-- SITE-HEADER -->
 
@@ -95,12 +104,12 @@
 
   <!-- MAIN-CONTENT -->
   <main class="main-content">
-    <div class="container">
+    <div >
       <!-- <h1>Namanganliklar24 - news site</h1> -->
 
       <!-- TOP NEWS -->
 
-      <section class="top-news">
+      <section class="top-news container">
 
         <!-- ТОП НОВОСТИ -->
 
@@ -233,18 +242,22 @@
 
                   <!-- NOTIFICATION-CTA -->
 
-                  <section class="notification-cta">
-                    <div class="notification-cta-text">Хотите быть в курсе свежих новостей?  <br>Включите уведомления!
-                    </div>
-                    <button class="button button-orange" type="button">Включить</button>
-                  </section>
+                  <div class="container">
+                    <section class="notification-cta">
+                      <div class="notification-cta-text">Хотите быть в курсе свежих новостей?  <br>Включите уведомления!
+                      </div>
+                      <button class="button button-orange" type="button">Включить</button>
+                    </section>
+                  </div>
 
                   <!-- GLOBAL-NEWS -->
 
-                  <div class="layout-2-1">
+                  <div class="container">
+                    <h2 class="global-news-heading">В мире</h2>
+                  </div>
+                  <div class="layout-2-1 container">
                     <div class="layout-2-1-main">
                       <section class="global-news">
-                        <h2 class="global-news-heading">В мире</h2>
                         <!-- NEWS-LIST -->
                         <div class="news-list">
                           <div class="news-list-item article-card-horizontal">
@@ -256,10 +269,10 @@
                               <p class="article-card-horizontal-text">Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
                               <footer class="article-card-horizontal-footer">
                                 <img class="article-card-horizontal-source-icon" src="img/krasnaya-vesna-logo.jpg" alt="tarantas-news" width="20" height="20" srcset="img/krasnaya-vesna-logo.jpg 1x, img/krasnaya-vesna-logo@2x.jpg 2x">
-                                <div class="article-card-horizontal-source-time">
+                                <a class="article-card-horizontal-source-time" href="#">
                                   <span class="article-card-horizontal-source">ИА Красная Весна</span>
                                   <time datetime="12:25:00">12:25</time>
-                                </div>
+                                </a>
                               </footer>
                             </div>
                           </div>
@@ -273,10 +286,10 @@
                               <p class="article-card-horizontal-text">ЧБЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
                               <footer class="article-card-horizontal-footer">
                                 <img class="article-card-horizontal-source-icon" src="img/tacc.jpg" alt="tarantas-news" width="20" height="20" srcset="img/tacc.jpg 1x, img/img/tacc@2x.jpg 2x">
-                                <div class="article-card-horizontal-source-time">
+                                <a class="article-card-horizontal-source-time" href="#">
                                   <span class="article-card-horizontal-source">ТАСС</span>
                                   <time datetime="11:35:00">11:35</time>
-                                </div>
+                                </a>
                               </footer>
                             </div>
                           </div>
@@ -290,10 +303,10 @@
                               <p class="article-card-horizontal-text">За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
                               <footer class="article-card-horizontal-footer">
                                 <img class="article-card-horizontal-source-icon" src="img/rbk.jpg" alt="tarantas-news" width="20" height="20" srcset="img/rbk.jpg 1x, img/rbk@2x.jpg 2x">
-                                <div class="article-card-horizontal-source-time">
+                                <a class="article-card-horizontal-source-time" href="#">
                                   <span class="article-card-horizontal-source">РБК Инвестиции</span>
                                   <time datetime="09:35:00">09:35</time>
-                                </div>
+                                </a>
                               </footer>
                             </div>
                           </div>
@@ -307,10 +320,10 @@
                               <p class="article-card-horizontal-text">Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
                               <footer class="article-card-horizontal-footer">
                                 <img class="article-card-horizontal-source-icon" src="img/solenka.png" alt="tarantas-news" width="20" height="20" srcset="img/solenka.png 1x, img/solenka@2.png 2x">
-                                <div class="article-card-horizontal-source-time">
+                                <a class="article-card-horizontal-source-time" href="#">
                                   <span class="article-card-horizontal-source">Solenka.info</span>
                                   <time datetime="19:43:00">19:43</time>
-                                </div>
+                                </a>
                               </footer>
                             </div>
                           </div>
@@ -370,6 +383,8 @@
                   </div>
                 </div>
               </main>
+
+              <script src="js/main.js"></script>
 
             </body>
             </html>
