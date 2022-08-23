@@ -418,6 +418,8 @@ body{
 }
 
 .article-text {
+  padding: 0;
+  margin: 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -446,7 +448,10 @@ body{
   height: 207px;
 }
 
-.article-divider {}
+.recommended-article-heading {
+  display: block;
+  margin-right: 10px;
+}
 
 /* ARTICLE-CARD-HORIZONTAL */
 
