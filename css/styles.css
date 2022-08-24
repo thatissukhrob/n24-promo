@@ -781,6 +781,14 @@ body{
   align-self: flex-end;
 }
 
+.contact-page-content{
+  display: flex;
+}
+
+.contact-page-info {
+  width: 494px;
+  margin-left: 10px;
+}
 
 /* FORM */
 
@@ -813,4 +821,40 @@ body{
 .form-field-textarea {
   resize: vertical;
   min-height: 180px;
+}
+
+
+/* DEFINITIONS-CARD */
+
+.contact-page-definition-card {
+}
+
+.definitions-card {
+  background-color: #f6f6f6;
+  color: #000;
+  margin: 0;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+
+.definitions-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.definitions-card-item:not(:last-child){
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.definitions-card-title {
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.definitions-card-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
 }
